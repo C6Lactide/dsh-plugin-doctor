@@ -1,0 +1,32 @@
+{
+  "name": "@lactide/dsh-plugin-doctor",
+  "version": "0.1.0",
+  "description": "Health check for the DeepSeek Harness plugin tree: patch-layer YAML, include form, and double-copy consistency.",
+  "bin": {
+    "dsh-plugin-doctor": "bin/dsh-plugin-doctor.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "doctor",
+    "cordis"
+  ],
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C6Lactide/dsh-plugin-doctor.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
